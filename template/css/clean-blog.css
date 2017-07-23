@@ -7,6 +7,7 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #333333;
+  height: 100vh; /*to teste*/
 }
 p {
   line-height: 1.5;
@@ -153,6 +154,8 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  background-image: url('../img/bg1.png');
+  height: 100vh;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -167,6 +170,22 @@ hr.small {
     padding: 150px 0;
   }
 }
+
+.heading-title {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 10px solid #242424;
+  color:#242424;
+  width: 550px;
+  margin:0 auto;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.heading-title span {
+  font-size: 40px;
+  font-weight: 900;
+}
+
 .intro-header .site-heading,
 .intro-header .page-heading {
   text-align: center;
@@ -355,6 +374,19 @@ form .row:first-child .floating-label-form-group {
   background-color: #0085A1;
   border: 1px solid #0085A1;
   color: white;
+}
+.btn-called {
+  font-family: 'Roboto', sans-serif;
+  border:0px;
+  border-radius: 30px;
+  color:#000;
+  background:#fff;
+  padding: 10px 90px;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 3px 19px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 19px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 19px -10px rgba(0,0,0,0.75);
 }
 .pager {
   margin: 20px 0 0;
