@@ -72,6 +72,26 @@ hr.small {
 .navbar-custom .container-fluid {
   max-width: 900px;
 }
+
+@media only screen and (max-width: 767px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #fff;
+  }
+
+  .navbar-toggle {
+    background-color: #fff;
+  }
+
+  #menu-navbar-collapse {
+    background-color: #fff;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -80,13 +100,14 @@ hr.small {
   .navbar-custom .navbar-brand {
     color: white;
     padding: 20px;
+    font-size: 30px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #242424;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -186,6 +207,7 @@ hr.small {
 
 .heading-title span {
   font-size: 60px;
+  line-height: 60px;
   font-weight: 900;
 }
 
