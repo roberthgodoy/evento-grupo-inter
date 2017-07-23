@@ -69,6 +69,9 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+.navbar-custom .container-fluid {
+  max-width: 900px;
+}
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -175,14 +178,14 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border: 10px solid #242424;
   color:#242424;
-  width: 550px;
+  width: 450px;
   margin:0 auto;
   text-align: center;
   padding: 10px 20px;
 }
 
 .heading-title span {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 900;
 }
 
