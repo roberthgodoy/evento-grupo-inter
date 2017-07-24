@@ -178,7 +178,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
-  background-image: url('../img/bg1.png');
+  background-image: url('../img/bg1.jpg');
   height: 100vh;
 }
 .intro-header .site-heading,
@@ -197,9 +197,8 @@ hr.small {
 
 .heading-title {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  border: 10px solid #242424;
   color:#242424;
-  max-width: 450px;
+  max-width: 650px;
   width: 100%;
   margin:0 auto;
   text-align: center;
@@ -406,7 +405,7 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Roboto', sans-serif;
   border:0px;
   border-radius: 30px;
-  color:#000;
+  color:#40174A;
   background:#fff;
   padding: 10px 90px;
   font-weight: bold;
