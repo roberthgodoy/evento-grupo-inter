@@ -480,10 +480,10 @@ body {
 }
 
 .arrow {
-  position: absolute;
   bottom: 0;
+  /*position: absolute;
   left: 50%;
-  margin-left:-20px;
+  margin-left:-20px;*/
 }
 
 .bounce {
