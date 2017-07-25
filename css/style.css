@@ -36,6 +36,32 @@
   font-size: 30px;
 }
 
+.pic-speaker {
+  width: 200px;
+  height: 200px;
+  background: no-repeat bottom center scroll;
+  background-image: url(../img/speaker-default.png);
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin: 0 auto;
+}
+
+.pic-sponsor {
+  width: 120px;
+  height: 120px;
+  background: no-repeat bottom center scroll;
+  background-image: url(../img/sponsor-default.png);
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin: 0 auto;
+}
+
 .section-footer {
 	background: #40174A;
 }
