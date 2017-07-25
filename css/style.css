@@ -36,6 +36,11 @@
   font-size: 30px;
 }
 
+.conection-share {
+  width: 250px;
+  margin-top: calc(50% - 125px);
+}
+
 .section-coaches {
   padding: 20px;
 }
@@ -66,7 +71,8 @@
   margin: 0 auto;
 }
 
-.box-speaker {
+.box-speaker,
+.box-sponsor {
   padding: 20px;
 }
 
@@ -129,4 +135,22 @@ span {
 .faltam {
 	font-size: 0.8em;
 	font-weight: 700;
+}
+
+/* SMART AND TABLET*/
+@media only screen and (max-width: 767px) {
+  .conection-share {
+    margin-top: 0px;
+  }
+  .clock-number {
+    font-family: 'Digital';
+    font-size: 3.5em;
+    color: #40174A;
+  }
+
+  .clock-label {
+    font-family: 'Digital';
+    font-size: 1.0em;
+    color: #F27221;
+  }
 }
