@@ -36,6 +36,10 @@
   font-size: 30px;
 }
 
+.section-coaches {
+  padding: 20px;
+}
+
 .pic-speaker {
   width: 200px;
   height: 200px;
@@ -75,8 +79,13 @@
   font-size: 10px;
 }
 
+.section-support {
+  padding-bottom: 30px;
+}
+
 .section-support-title {
   margin-top: 70px;
+  margin-bottom: 50px;
   color:#40174a;
   font-weight: 900;
   font-size: 30px;
